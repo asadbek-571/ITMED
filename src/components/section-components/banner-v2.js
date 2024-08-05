@@ -10,7 +10,7 @@ class BannerV2 extends Component {
         let publicUrl = process.env.PUBLIC_URL + '/'
 
         return <div className="banner-area banner-area-2"
-                    style={{backgroundImage: 'url("' + publicUrl + 'assets/img/bg/pricing-bg.png")'}}>
+                    style={{backgroundImage: 'url("' + publicUrl + 'assets/img/bg/bg.png")',backgroundSize:"contain"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 align-self-center">
